@@ -1,0 +1,50 @@
+[
+    {
+        "format_version": "1.20.0",
+        "minecraft:item": {
+            "description": { "identifier": "rival:zeus", "menu_category": { "category": "equipment" } },
+            "components": {
+                "minecraft:icon": { "texture": "rival_zeus" },
+                "minecraft:display_name": { "value": "item.rival:zeus" },
+                "minecraft:shooter": { "ammunition": [{ "item": "rival:round", "search_inventory": true, "use_in_creative": true }] },
+                "minecraft:cooldown": { "category": "rival_gun", "duration": 0.4 }
+            }
+        }
+    },
+    {
+        "format_version": "1.20.0",
+        "minecraft:item": {
+            "description": { "identifier": "rival:hera", "menu_category": { "category": "equipment" } },
+            "components": {
+                "minecraft:icon": { "texture": "rival_hera" },
+                "minecraft:display_name": { "value": "item.rival:hera" },
+                "minecraft:shooter": { "ammunition": [{ "item": "rival:round", "search_inventory": true, "use_in_creative": true }] },
+                "minecraft:cooldown": { "category": "rival_gun", "duration": 0.3 }
+            }
+        }
+    },
+    {
+        "format_version": "1.20.0",
+        "minecraft:item": {
+            "description": { "identifier": "rival:hades", "menu_category": { "category": "equipment" } },
+            "components": {
+                "minecraft:icon": { "texture": "rival_hades" },
+                "minecraft:display_name": { "value": "item.rival:hades" },
+                "minecraft:shooter": { "ammunition": [{ "item": "rival:round", "search_inventory": true, "use_in_creative": true }] },
+                "minecraft:cooldown": { "category": "rival_gun", "duration": 0.5 }
+            }
+        }
+    },
+    {
+        "format_version": "1.20.0",
+        "minecraft:item": {
+            "description": { "identifier": "rival:artemis", "menu_category": { "category": "equipment" } },
+            "components": {
+                "minecraft:icon": { "texture": "rival_artemis" },
+                "minecraft:display_name": { "value": "item.rival:artemis" },
+                "minecraft:shooter": { "ammunition": [{ "item": "rival:round", "search_inventory": true, "use_in_creative": true }] },
+                "minecraft:cooldown": { "category": "rival_gun", "duration": 1.0 }
+            }
+        }
+    }
+]

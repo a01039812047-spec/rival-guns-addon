@@ -1,0 +1,99 @@
+{
+    "format_version": "1.0.0",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "name": "rival_shop_main",
+                "description": "라이벌 상점 메인 화면",
+                "buttons": [
+                    {
+                        "name": "무기 구매",
+                        "commands": ["/dialogue open @s rival_shop_weapons"]
+                    },
+                    {
+                        "name": "탄약 구매",
+                        "commands": ["/dialogue open @s rival_shop_ammo"]
+                    },
+                    {
+                        "name": "장비 구매",
+                        "commands": ["/dialogue open @s rival_shop_gear"]
+                    },
+                    {
+                        "name": "나가기",
+                        "commands": []
+                    }
+                ]
+            },
+            {
+                "name": "rival_shop_weapons",
+                "description": "무기 판매점",
+                "buttons": [
+                    {
+                        "name": "라이벌 크로노스 (3 키)",
+                        "commands": ["/give @s rival:kronos 1", "/clear @s rival:key 3"]
+                    },
+                    {
+                        "name": "라이벌 아폴로 (5 키)",
+                        "commands": ["/give @s rival:apollo 1", "/clear @s rival:key 5"]
+                    },
+                    {
+                        "name": "라이벌 제우스 (8 키)",
+                        "commands": ["/give @s rival:zeus 1", "/clear @s rival:key 8"]
+                    },
+                    {
+                        "name": "라이벌 헤라 (10 키)",
+                        "commands": ["/give @s rival:hera 1", "/clear @s rival:key 10"]
+                    },
+                    {
+                        "name": "라이벌 아르테미스 (15 키)",
+                        "commands": ["/give @s rival:artemis 1", "/clear @s rival:key 15"]
+                    },
+                    {
+                        "name": "라이벌 하데스 (20 키)",
+                        "commands": ["/give @s rival:hades 1", "/clear @s rival:key 20"]
+                    },
+                    {
+                        "name": "라이벌 네메시스 (25 키)",
+                        "commands": ["/give @s rival:nemesis 1", "/clear @s rival:key 25"]
+                    },
+                    {
+                        "name": "뒤로 가기",
+                        "commands": ["/dialogue open @s rival_shop_main"]
+                    }
+                ]
+            },
+            {
+                "name": "rival_shop_ammo",
+                "description": "탄약 판매점",
+                "buttons": [
+                    {
+                        "name": "라이벌 라운드 32발 (1 키)",
+                        "commands": ["/give @s rival:round 32", "/clear @s rival:key 1"]
+                    },
+                    {
+                        "name": "라이벌 라운드 64발 (2 키)",
+                        "commands": ["/give @s rival:round 64", "/clear @s rival:key 2"]
+                    },
+                    {
+                        "name": "뒤로 가기",
+                        "commands": ["/dialogue open @s rival_shop_main"]
+                    }
+                ]
+            },
+            {
+                "name": "rival_shop_gear",
+                "description": "장비 판매점",
+                "buttons": [
+                    {
+                        "name": "라이벌 마스크 (5 키)",
+                        "commands": ["/give @s rival:mask 1", "/clear @s rival:key 5"]
+                    },
+                    {
+                        "name": "뒤로 가기",
+                        "commands": ["/dialogue open @s rival_shop_main"]
+                    }
+                ]
+            }
+        ]
+    }
+}

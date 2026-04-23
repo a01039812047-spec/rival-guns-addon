@@ -1,0 +1,22 @@
+라이벌 상점 UI 사용 방법
+========================
+
+상점을 열기 위해 다음 명령어를 사용하세요:
+
+1. 기본 상점 열기:
+   /dialogue open @s rival_shop_main
+
+2. 무기 판매점 직접 열기:
+   /dialogue open @s rival_shop_weapons
+
+3. 탄약 판매점 직접 열기:
+   /dialogue open @s rival_shop_ammo
+
+4. 장비 판매점 직접 열기:
+   /dialogue open @s rival_shop_gear
+
+참고: 상점에서 구매하려면 충분한 라이벌 키(rival:key)가 필요합니다.
+
+라이벌 키 획득 방법:
+- 에메랄드 1개 + 철괴 1개를 조합하여 라이벌 키 1개 획득
+- 명령어: /give @s rival:key 1 (테스트용)

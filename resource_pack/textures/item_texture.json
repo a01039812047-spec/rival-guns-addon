@@ -16,6 +16,21 @@
         },
         "rival_mask": {
             "textures": "textures/items/mask"
+        },
+        "rival_key": {
+            "textures": "textures/items/key"
+        },
+        "rival_zeus": {
+            "textures": "textures/items/zeus"
+        },
+        "rival_hera": {
+            "textures": "textures/items/hera"
+        },
+        "rival_hades": {
+            "textures": "textures/items/hades"
+        },
+        "rival_artemis": {
+            "textures": "textures/items/artemis"
         }
     }
 }
