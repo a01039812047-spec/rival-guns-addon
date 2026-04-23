@@ -1,0 +1,20 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "rival:round",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "rival_round"
+            },
+            "minecraft:display_name": {
+                "value": "item.rival:round"
+            },
+            "minecraft:stack_size": 64
+        }
+    }
+}

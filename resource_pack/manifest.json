@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Rival Guns Addon - Resource Pack",
+        "name": "Rival Guns RP",
+        "uuid": "c92f99da-c62c-4a52-b5ba-813e9595395a",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 20, 0]
+    },
+    "modules": [
+        {
+            "description": "Rival Guns Resources",
+            "type": "resources",
+            "uuid": "994b168c-2b1a-4668-ac0b-5155e32cbe52",
+            "version": [1, 0, 0]
+        }
+    ]
+}

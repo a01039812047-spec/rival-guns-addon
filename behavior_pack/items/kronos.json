@@ -1,0 +1,37 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "rival:kronos",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "rival_kronos"
+            },
+            "minecraft:display_name": {
+                "value": "item.rival:kronos"
+            },
+            "minecraft:stack_size": 1,
+            "minecraft:hand_equipped": true,
+            "minecraft:shooter": {
+                "ammunition": [
+                    {
+                        "item": "rival:round",
+                        "use_offhand": true,
+                        "search_inventory": true,
+                        "use_in_creative": true
+                    }
+                ],
+                "charge_on_draw": true,
+                "scale_power_by_draw_duration": false
+            },
+            "minecraft:cooldown": {
+                "category": "rival_gun",
+                "duration": 0.8
+            }
+        }
+    }
+}

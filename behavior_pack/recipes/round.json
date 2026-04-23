@@ -1,0 +1,21 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "rival:round_recipe"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "Y",
+            "I"
+        ],
+        "key": {
+            "Y": { "item": "minecraft:yellow_dye" },
+            "I": { "item": "minecraft:iron_nugget" }
+        },
+        "result": {
+            "item": "rival:round",
+            "count": 8
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Rival Guns Addon - Behavior Pack",
+        "name": "Rival Guns BP",
+        "uuid": "da3a05fc-5169-4ca4-8cab-3b13d1d36e9f",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 20, 0]
+    },
+    "modules": [
+        {
+            "description": "Rival Guns Behavior",
+            "type": "data",
+            "uuid": "db2f5af4-8579-4961-9e04-4f517ab1fdb3",
+            "version": [1, 0, 0]
+        }
+    ]
+}

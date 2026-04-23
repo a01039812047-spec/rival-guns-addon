@@ -1,0 +1,21 @@
+{
+    "resource_pack_name": "rival_guns",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "rival_round": {
+            "textures": "textures/items/round"
+        },
+        "rival_kronos": {
+            "textures": "textures/items/kronos"
+        },
+        "rival_apollo": {
+            "textures": "textures/items/apollo"
+        },
+        "rival_nemesis": {
+            "textures": "textures/items/nemesis"
+        },
+        "rival_mask": {
+            "textures": "textures/items/mask"
+        }
+    }
+}

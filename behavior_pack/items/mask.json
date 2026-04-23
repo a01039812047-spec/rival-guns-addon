@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "rival:mask",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "rival_mask"
+            },
+            "minecraft:display_name": {
+                "value": "item.rival:mask"
+            },
+            "minecraft:wearable": {
+                "slot": "slot.armor.head"
+            },
+            "minecraft:armor": {
+                "protection": 2
+            }
+        }
+    }
+}

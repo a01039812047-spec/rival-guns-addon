@@ -1,0 +1,38 @@
+[
+    {
+        "format_version": "1.20.0",
+        "minecraft:recipe_shaped": {
+            "description": { "identifier": "rival:nemesis_recipe" },
+            "tags": ["crafting_table"],
+            "pattern": [
+                "CYC",
+                "IRI",
+                "III"
+            ],
+            "key": {
+                "C": { "item": "minecraft:chest" },
+                "Y": { "item": "minecraft:yellow_dye" },
+                "I": { "item": "minecraft:iron_ingot" },
+                "R": { "item": "minecraft:redstone" }
+            },
+            "result": { "item": "rival:nemesis" }
+        }
+    },
+    {
+        "format_version": "1.20.0",
+        "minecraft:recipe_shaped": {
+            "description": { "identifier": "rival:mask_recipe" },
+            "tags": ["crafting_table"],
+            "pattern": [
+                "III",
+                "IGI",
+                "   "
+            ],
+            "key": {
+                "I": { "item": "minecraft:iron_ingot" },
+                "G": { "item": "minecraft:glass_pane" }
+            },
+            "result": { "item": "rival:mask" }
+        }
+    }
+]
